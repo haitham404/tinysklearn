@@ -1,16 +1,45 @@
-
-```markdown
 # TinyScikitLearn
 
-A minimal Python library for learning machine learning concepts from scratch.
+A comprehensive Python library implementing core machine learning algorithms from scratch, demonstrating deep understanding of mathematical foundations and software engineering principles.
 
-## Features
+## Overview
 
-- **Linear Models:** Linear Regression, Logistic Regression
-- **Neural Networks:** Simple Multi-Layer Perceptron (MLP)
-- **Preprocessing:** Scaling, One-hot encoding
-- **Model Selection:** Train/test split, Cross-validation
-- **Metrics:** MSE, R², Accuracy, Precision, Recall, F1-score
-- **Utilities:** Activation functions for neural networks
-```
+This project reimplements essential machine learning components without relying on external ML libraries, showcasing expertise in:
+- Mathematical optimization and gradient-based learning
+- Object-oriented design and modular architecture
+- Numerical computing with NumPy
+- Algorithm implementation and performance optimization
+
+## Key Features
+
+### Core Algorithms
+- **Linear Models**: Linear Regression with Normal Equation and Gradient Descent solvers
+- **Neural Networks**: Multi-layer perceptron with backpropagation and mini-batch training
+- **Preprocessing**: Feature scaling (StandardScaler, MinMaxScaler), categorical encoding (OneHotEncoder, LabelEncoder)
+- **Model Selection**: Train/validation/test splitting, cross-validation utilities
+- **Metrics**: Comprehensive evaluation metrics (MSE, R², accuracy, precision, recall, F1-score)
+
+### Architecture Highlights
+- Modular design with clear separation of concerns
+- Consistent API following scikit-learn conventions
+- Efficient vectorized implementations using NumPy
+- Extensible framework for adding new algorithms
+
+
+
+
+## Project Structure
+
+tinysklearn/
+├── linear_model/          # Linear regression and classification
+├── neural_network/        # Neural network implementation
+│   ├── Neuron.py         # Individual neuron with forward/backward pass
+│   ├── NeuronLayer.py    # Layer of neurons with batch processing
+│   └── NeuralNetwork.py  # Complete network with training loop
+├── preprocessing/         # Feature preprocessing utilities
+├── metrics/              # Model evaluation metrics
+├── optimizers/           # Optimization algorithms
+└── __init__.py           # Package exports
+
+
 
