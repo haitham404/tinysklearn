@@ -28,15 +28,6 @@ This project reimplements essential machine learning components without relying 
 
 
 
-## Project Structure
-
-tinysklearn/
-├── linear_model/          # Linear regression and classification
-├── neural_network/        # Neural network implementation
-│   ├── Neuron.py         # Individual neuron with forward/backward pass
-│   ├── NeuronLayer.py    # Layer of neurons with batch processing
-│   └── NeuralNetwork.py  # Complete network with training loop
-├── preprocessing/         # Feature preprocessing utilities
 ├── metrics/              # Model evaluation metrics
 ├── optimizers/           # Optimization algorithms
 └── __init__.py           # Package exports
