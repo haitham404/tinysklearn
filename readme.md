@@ -28,9 +28,6 @@ This project reimplements essential machine learning components without relying 
 
 
 
-├── metrics/              # Model evaluation metrics
-├── optimizers/           # Optimization algorithms
-└── __init__.py           # Package exports
 
 
 
